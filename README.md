@@ -7,32 +7,16 @@ Fiquem a vontade para usar, observo que tenha o Ruby instalado e possa executar 
 Caso nao tenha, procure na internet como instalar o Ruby pelo google
 Eu gosto Ruby e você?
 
+Percebam alguns exemplos praticos
 
+Usamos o PUTS para imprimir dados ao usuario na tela
+e o GETS para aguardar o usuario a escrever
 
+percebam que nao colocamos Pont e Virgula no final
 
-CODIGO EM RUBY
+Tudo em Ruby é praticamente um Objeto, interessante nao e
 
-novo_jogo = "s"
-while novo_jogo == "s"
-	puts "Advinhe o número que estou pensando entre 1 e 100:"
-	seu_numero = gets.to_i
-	pc_numero = Random.rand(99) + 1
-	tentativas = 1
+vejam o loop do comando percebam o quanto ele é intuitivo todo o Codigo
+Lembram do famoso IF oras é como escrever em ingles um texto e o computador faz o resto
 
-while pc_numero != seu_numero
-		if pc_numero > seu_numero
-			puts "O número é maior que #{seu_numero}"
-		else
-      puts "O número é menor que #{seu_numero}"
-		end
-
-		tentativas += 1
-		puts "Tente novamente: "
-		seu_numero = gets.to_i
-	end
-
-	puts "Parabéns, o número era #{pc_numero}"
-	puts "Você usou #{tentativas} tentativas"
-	puts "Deseja jogar novamente? (s/n)"
-  novo_jogo = gets.chomp
-end
+Nao acham? e o melhor e gratuito, facil e roda no MAC!! Linux , e muito mais 
